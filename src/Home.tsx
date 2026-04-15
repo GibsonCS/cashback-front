@@ -7,7 +7,7 @@ export default function Home() {
   const [showTable, setShowTable] = useState(false);
 
   const handleQuery = async () => {
-    const response = await fetch("http://localhost:8000/api/cashback", {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/cashback`, {
       method: "GET",
     });
 
