@@ -4,10 +4,6 @@
       "handle": "filesystem"
     },
     {
-      "src": "^/api/(.*)",
-      "dest": "http://147.15.34.145:8000/api/$1"
-    },
-    {
       "src": "^(.*)$",
       "dest": "/index.html"
     }

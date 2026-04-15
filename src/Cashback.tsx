@@ -22,7 +22,7 @@ export default function Cashback() {
 
     console.log(inputData);
 
-    const response = await fetch(import.meta.env.VITE_API_URL, {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/cashback`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(inputData),

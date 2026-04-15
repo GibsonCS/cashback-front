@@ -1,24 +1,3 @@
-// const clients = [
-//   {
-//     client_type: "Lindsay Walton",
-//     value: "Front-end Developer",
-//     cashback: "lindsay.walton@example.com",
-//     ip_address: "Member",
-//   },
-//   {
-//     client_type: "Lindsay Walton",
-//     value: "Front-end Developer",
-//     cashback: "lindsay.walton@example.com",
-//     ip_address: "Member",
-//   },
-//   {
-//     client_type: "Lindsay Walton",
-//     value: "Front-end Developer",
-//     cashback: "lindsay.walton@example.com",
-//     ip_address: "Member",
-//   },
-// ];
-
 export default function Queries({ clients }: any) {
   return (
     <div className="px-4 sm:px-6 lg:px-8">
