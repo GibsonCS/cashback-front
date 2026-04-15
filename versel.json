@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://gtech.dev.br/api/$1"
+    }
+  ]
+}
